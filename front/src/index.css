@@ -1,6 +1,11 @@
 @import "tailwindcss";
+@import "tailwindcss-animated";
 
-.vertical-text{
-    writing-mode: vertical-lr;
 
+.main--container{
+    @apply bg-[url(./src/assets/images/wallpaperflare.com_wallpaper.jpg)] h-screen bg-no-repeat 
 }
+a:hover span {
+    opacity: 1;
+    background-color: rgb(26, 67, 145);
+  }

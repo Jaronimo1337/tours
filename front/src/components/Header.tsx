@@ -8,7 +8,8 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900">
+    <div className='main--container'>
+    <nav className="navbar--main bg-white border-gray-200 dark:bg-gray-900 sticky top-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
@@ -132,7 +133,36 @@ const Navbar: React.FC = () => {
         </div>
       </div>
     </nav>
-  );
+    <div>
+      
+    
+    <h1
+  className="ml-20 text-4xl mt-[15rem] font-semibold leading-normal text-gray-900 dark:text-white animate-flip-down animate-once animate-duration-[500ms] animate-delay-[500ms] animate-ease-in drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]"
+>
+  Welcome to Vilnius Tours, where you can find best places to visit.
+</h1>
+<h2 className='animate-flip-down animate-once animate-duration-[500ms] animate-delay-[1000ms] animate-ease-in drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] ml-20 text-3xl mt-2 leading-normal text-gray-900 dark:text-white'>Read about Vilnius and discover .</h2></div>
+<div className="flex drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] animate-fade-up animate-duration-[500ms] animate-delay-[2000ms] animate-ease-in justify-center mt-10 mb-10">
+  <div className="w-1/3 p-11">
+    <a href="/page1" className=" w-2/3 h-2/3 relative">
+      <img src="./src/assets/images/1.jpg" alt="Image 1" className="w-full rounded-lg h-full object-cover" />
+      <span className="absolute top-1/2 w-full text-center left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-xl opacity-0 transition duration-300">Sites you must visit in Vilnius</span>
+    </a>
+  </div>
+  <div className="w-1/3 p-11">
+    <a href="/page2" className="w-2/3 h-2/3 relative">
+      <img src="./src/assets/images/2.jpg" alt="Image 2" className="w-full rounded-lg h-full object-cover" />
+      <span className="absolute top-1/2 w-full text-center left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-xl opacity-0 transition duration-300">Short history of Vilnius</span>
+    </a>
+  </div>
+  <div className="w-1/3 p-11">
+    <a href="/page3" className="w-2/3 h-2/3 relative">
+      <img src="./src/assets/images/3.jpg" alt="Image 3" className="w-full rounded-lg h-full object-cover" />
+      <span className="absolute top-1/2 w-full text-center left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-xl opacity-0 transition duration-300">History of Lithuania</span>
+    </a>
+  </div>
+</div>
+</div>);
 };
 
 export default Navbar;
