@@ -141,7 +141,7 @@ const Navbar: React.FC = () => {
 >
   Welcome to Vilnius Tours, where you can find best places to visit.
 </h1>
-<h2 className='animate-flip-down animate-once animate-duration-[500ms] animate-delay-[1000ms] animate-ease-in drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] ml-20 text-3xl mt-2 leading-normal text-gray-900 dark:text-white'>Read about Vilnius and discover .</h2></div>
+<h2 className='animate-flip-down animate-once animate-duration-[500ms] animate-delay-[1000ms] animate-ease-in drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] ml-20 text-3xl mt-2 leading-normal text-gray-900 dark:text-white'>Read about Vilnius and discover its culture.</h2></div>
 <div className="flex drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] animate-fade-up animate-duration-[500ms] animate-delay-[2000ms] animate-ease-in justify-center mt-10 mb-10">
   <div className="w-1/3 p-11">
     <a href="/page1" className=" w-2/3 h-2/3 relative">
